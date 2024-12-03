@@ -1,0 +1,22 @@
+.form {
+    position: relative;
+    margin: 10px 0;
+}
+
+.form input {
+    flex: 1;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
